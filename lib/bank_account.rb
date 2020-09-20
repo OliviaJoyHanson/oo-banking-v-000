@@ -1,5 +1,5 @@
 require 'pry'
 
-class BankAccount 
+class BankAccount
 
 end 
