@@ -20,6 +20,7 @@ class Transfer
       count += 1
       @sender.balance -= @amount
       @receiver.balance += @amount
+      @status = "complete"
     end
   end
 
