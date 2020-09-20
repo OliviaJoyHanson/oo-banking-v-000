@@ -15,6 +15,7 @@ class Transfer
   end
 
   def execute_transaction
+    count = 0
     if self.valid? && count == 0
       count += 1
       @sender.balance -= @amount
